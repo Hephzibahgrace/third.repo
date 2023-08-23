@@ -1,5 +1,5 @@
 ##demo
 
-This is the third time trying coding here
+This is my first project
 
-i love codinggggg
+A responsive webpage about Acme Web Design

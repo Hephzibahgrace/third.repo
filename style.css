@@ -1,0 +1,216 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.bttn{
+    height: 38px;
+    background-color: orangered;
+    color: white;
+    border: 0;
+    padding: 0 20px 0 20px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+} 
+
+.dark{
+    padding: 20px; 
+    background-color: darkslategrey;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+header{
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 10px;
+    border-bottom:orangered 3px solid ;
+    min-height: 70%;
+}
+
+header li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+/*
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #acme{
+    float: left;
+}
+
+header #acme h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+} 
+*/
+
+header .spanish , header .highlight a{
+    color: orangered;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: rgb(179, 176, 176);
+    font-weight: bold;
+}
+
+section .container-2{
+    width: auto;
+    min-height: 400px;
+    background: url(../images/cup-of-coffee-1280537_1280.jpg);
+    object-fit: contain;
+    text-align: center;
+    color: white;    
+}
+
+.container-2 h1{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.container-2 p{
+    font-size: 20px;
+}
+
+.container-3{
+    background-color: darkslategrey;
+    color: white;
+    padding: 20px;
+    min-height: 30%;
+    width: auto;
+}
+
+.container-9{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-3 input[type="email"]{
+    height: 25px;
+    width: 250px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-4{
+    min-height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section .container-4 img{
+    width: 70px;
+}
+
+.container-5{
+    margin-top: 10px;
+    width: 70%;
+} 
+
+.container-8{
+    padding: 20px;
+    border: white solid 1px;
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+}
+
+.foot{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    width: auto;
+    min-height: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media(max-width:760px){
+    header .container{
+        display: block;
+    }
+    header ul{
+        padding-left: 25px;
+    }
+    header{
+        padding-bottom: 20px;
+        padding-left: 60px;
+    }
+    #acme{
+        margin-top: 10px;
+    }
+    .container-9{
+        display: block;
+    }
+    .container-9 button{
+        width: 100%;
+    }
+    .container-9 form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .container-4{
+        display: block;
+        text-align: center;
+    }
+    .box{
+        display: block;
+        padding-left: 50px;
+    }
+    .dark{
+        width: 300px;
+    }
+    .dark button,.dark input[type="text"],.dark textarea{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .dark label{
+        padding-left:100px;
+    }
+}
