@@ -97,7 +97,7 @@ header a:hover{
 section .container-2{
     width: auto;
     min-height: 400px;
-    background: url(../images/cup-of-coffee-1280537_1280.jpg);
+    background: url(../third.repo/images/cup-of-coffee-1280537_1280.jpg) no-repeat center center/cover;
     object-fit: contain;
     text-align: center;
     color: white;    
